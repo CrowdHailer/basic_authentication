@@ -19,7 +19,7 @@ defmodule BasicAuthentication.MixProject do
 
   defp deps do
     [
-      {:raxx, github: "crowdhailer/raxx", branch: "release-1.0"},
+      {:raxx, "~> 0.18.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
